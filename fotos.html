@@ -44,25 +44,38 @@
     <main class="container">
       <div class="row">
         <div class="col-12 bg-primary mt-5">
-          <h2 class="text-light p-3">P A N C H I T O - ¿Quién soy?</h2>
+          <h2 class="text-light p-3">P A N C H I T O - Fotos</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-sd-6 col-lg-4 p-3 border bg-light">
-          <h2>Mi nombre es --></h2>
-          <p>Mejor conocido</p>
-          <img src="/img/papi1.jpg" alt="" width="300" height="400">
+  
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/img/papi1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/papi4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/papi5.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="col-12 col-lg-4 p-3 border bg-light">
-          <h2>Francisco --></h2>
-          <p>como</p>
-          <img src="/img/papi2.jpg" alt="" width="300" height="400">
-        </div>
-        <div class="col-12 col-lg-4 p-3 border bg-light">
-          <h2>García</h2>
-          <p>P A N C H I T O</p>
-          <img src="/img/papi3.jpg" alt="" width="300" height="400">
-        </div>
+
         <nav class="navbar sticky-top navbar-light bg-primary">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Panchito 2022</a>
